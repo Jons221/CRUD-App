@@ -1,11 +1,11 @@
 package com.example.crudapp;
 
 public class konfigurasi {
-    public static final String URL_ADD="http://192.168.1.7/Android/pegawai/tambahPgw.php";
-    public static final String URL_GET_ALL = "http://192.168.1.7/Android/pegawai/tampilSemuaPgw.php";
-    public static final String URL_GET_EMP = "http://192.168.1.7/Android/pegawai/tampilPgw.php?id=";
-    public static final String URL_UPDATE_EMP = "http://192.168.1.7/Android/pegawai/updatePgw.php";
-    public static final String URL_DELETE_EMP = "http://192.168.1.7/Android/pegawai/hapusPgw.php?id=";
+    public static final String URL_ADD="http://192.168.1.3/Android/pegawai/tambahPgw.php";
+    public static final String URL_GET_ALL = "http://192.168.1.3/Android/pegawai/tampilSemuaPgw.php";
+    public static final String URL_GET_EMP = "http://192.168.1.3/Android/pegawai/tampilPgw.php?id=";
+    public static final String URL_UPDATE_EMP = "http://192.168.1.3/Android/pegawai/updatePgw.php";
+    public static final String URL_DELETE_EMP = "http://192.168.1.3/Android/pegawai/hapusPgw.php?id=";
 
     //Dibawah ini merupakan Kunci yang akan digunakan untuk mengirim permintaan ke Skrip PHP
     public static final String KEY_EMP_ID = "id";
